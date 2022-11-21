@@ -1,0 +1,48 @@
+p {
+    margin: 10px 0 !important;
+}
+.container {
+    transition: ease-in-out;
+}
+
+#mobile-demo {
+    background-color: rgba(126, 123, 123, 0.908);
+    border-radius: 10px;
+    width: 80%;
+    height: 60%;
+    margin-right: 0;
+    margin-block-start: 0;
+    margin-left: 6em;
+}
+.sidenav li a {
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+.sidenav li a:hover {
+    color: aqua;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: calc(20%);
+    align-items: center;
+}
+.login-container {
+    width: 400px;
+    margin-top: 50px;
+    text-align: center;
+}
+.fixed-action-btn {
+    bottom: 110px;
+}
+footer {
+    position: absolute;
+    bottom: 30px;
+    background: rgb(225, 225, 224);
+    height: 10%;
+    width: 100%;
+    margin: 0 auto;
+}
